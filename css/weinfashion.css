@@ -1,0 +1,88 @@
+/*
+Author: Hung-Shneg Liao
+Version: 1.0.0
+*/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	margin:0px;
+	background-repeat:no-repeat;
+	background-position:center top;
+	text-align: center;
+}
+
+.fashionBody {
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.centerBody {
+	margin-left: auto;
+	margin-right: auto;
+	width: 750px;
+}
+
+.fashionTop {
+	height:17px;
+	margin-top:2px;
+	width:750px;
+}
+
+.topBlank {
+	height: 17px;
+	width: 531px;
+	float: left;
+}
+
+.searchSection {
+	height: 17px;
+	width: 92px;
+	float: left;
+	background-image:url(../assets/imgs/searchBox.png);
+	background-repeat:no-repeat;
+	margin-right: 5px;
+}
+
+.searchSection:hover{
+	background-position:0 -21px;
+}
+
+.iconSection {
+	height: 17px;
+	width: 122px;
+	float: left;
+	background-image:url(../assets/imgs/socialIcons.png);
+	background-repeat:no-repeat;
+}
+
+.fashionBanner {
+	height: 60px;
+	width: 750px;
+}
+
+#weinfashionBanner {
+	height:60px;
+	width: 197px;
+	background-image:url(../assets/imgs/weinfashionLOGO.png);
+	background-repeat:no-repeat;
+}
+
+#divid1 {
+	width: 750px;
+	height: 5px;
+}
+
+.tabs {
+	width: 750ps;
+	height: 16px;
+}
+
+.tab {
+	height: 16px;
+	width: 80px;
+	background-image:url(../assets/imgs/tabSample.png);
+	background-repeat:no-repeat;
+	float:left;
+}
