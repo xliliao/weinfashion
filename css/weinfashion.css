@@ -65,6 +65,7 @@ body {
 #weinfashionBanner {
 	height:60px;
 	width: 197px;
+	float:left;
 	background-image:url(../assets/imgs/weinfashionLOGO.png);
 	background-repeat:no-repeat;
 }
@@ -74,15 +75,178 @@ body {
 	height: 5px;
 }
 
+.divider {
+	width: 750px;
+	height: 10px;
+}
+
 .tabs {
 	width: 750ps;
 	height: 16px;
+	text-align:left;
 }
 
 .tab {
-	height: 16px;
-	width: 80px;
-	background-image:url(../assets/imgs/tabSample.png);
-	background-repeat:no-repeat;
+	border-bottom: 16px solid black;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	width: 60px;
 	float:left;
+	position: relative;
+	text-align:left;
+}
+
+#shopIn {
+	width:80px;
+	border-left: 0px solid transparent;
+}
+html>body #shopIn {
+width: 70px;
+}
+
+#blog {
+	width:80px;
+}
+html>body #blog {
+width: 60px;
+}
+
+#about {
+	width:80px;
+}
+html>body #about {
+width: 60px;
+}
+
+#create {
+	width:100px;
+}
+html>body #create {
+width: 80px;
+}
+
+#rankings {
+	width:110px;
+}
+html>body #rankings {
+width: 90px;
+}
+
+#taggings {
+	width:110px;
+}
+html>body #taggings {
+width: 90px;
+}
+
+#register {
+	width:110px;
+}
+html>body #register {
+width: 90px;
+}
+
+#logIn {
+	width:80px;
+	border-right: 0px solid transparent;
+}
+html>body #logIn {
+width: 70px;
+}
+
+#overview {
+	width:110px;
+	border-left: 0px solid transparent;
+}
+html>body #overview {
+width: 100px;
+}
+
+#whyJoinUs {
+	width:220px;
+}
+html>body #whyJoinUs {
+width: 200px;
+}
+
+#adv {
+	width:220px;
+}
+html>body #adv {
+width: 200px;
+}
+
+#press {
+	width:110px;
+}
+html>body #press {
+width: 90px;
+}
+
+#jobs {
+	width:90px;
+	border-right: 0px solid transparent;
+}
+html>body #jobs {
+width: 80px;
+}
+
+.tabTxt {
+	width:100%;
+	height: 16px;
+	position: absolute;
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+	margin-top:1px;
+	text-align:center;
+}
+
+.tabTxt2 {
+	width:100%;
+	height: 16px;
+	position: absolute;
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+	margin-top:1px;
+	text-align:left;
+	margin-left: 10px;
+}
+
+#board {
+	height: 200px;
+	width: 750px;
+}
+
+#slider {
+	float: left;
+	height: 200px;
+	width: 370px;
+	margin-left: 15px;
+	margin-right: 60px;
+	background-image:url(../assets/imgs/slider.png);
+	background-repeat:no-repeat;
+}
+
+#rightBoard {
+	float: left;
+	height: 200px;
+	width: 260px;
+}
+
+#book {
+	height: 170px;
+	width: 260px;
+	background-image:url(../assets/imgs/book.png);
+	background-repeat:no-repeat;
+}
+
+#newsLetter {
+	height: 15px;
+	width: 240px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-image:url(../assets/imgs/newsletter.png);
+	background-repeat:no-repeat;
 }
